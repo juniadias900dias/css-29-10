@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: #fce4ec;
+    font-family: Arial, sans-serif;
+    color: #4a2e35;
+}
+
+.pagina {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: white;
+    font-size: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.apresentacao {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #880e4f;
+    color: white;
+    padding: 50px 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.apresentacao h1 {
+    color: #f8bbd0;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.apresentacao h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.apresentacao p {
+    line-height: 1.6;
+    color: #fce4ec;
+}
+
+.beneficios {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ad1457;
+    border-radius: 8px;
+}
+
+.beneficios h3 {
+    color: #f8bbd0;
+    margin-bottom: 10px;
+}
+
+.beneficios p {
+    color: #fce4ec;
+    margin-bottom: 6px;
+}
+
+.area-cadastro {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    background-color: #ffffff;
+    padding: 50px 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.area-cadastro h2 {
+    font-size: 28px;
+    color: #ad1457;
+    margin-bottom: 5px;
+}
+
+.area-cadastro p {
+    color: #777777;
+}
+
+form {
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #ad1457;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #f48fb1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus {
+    border-color: #ad1457;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    background-color: #ad1457;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #880e4f;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login a {
+    color: #ad1457;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
